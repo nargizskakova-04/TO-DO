@@ -32,7 +32,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/nargizskakova-04/TO-DO.git
    cd todo-list-app
    ```
 
@@ -235,7 +235,7 @@ Remember to update the database connection string in `app.go` if your PostgreSQL
 
 1. Клонирование репозитория:
    ```bash
-   git clone <url-репозитория>
+   git clone https://github.com/nargizskakova-04/TO-DO.git
    cd todo-list-app
    ```
 
