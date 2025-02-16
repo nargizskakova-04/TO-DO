@@ -29,7 +29,6 @@ func NewApp() *App {
 func (a *App) startup(ctx context.Context) {
     a.ctx = ctx
     
-    // Connect to PostgreSQL
     connStr := "host=localhost port=5432 user=postgres password=postgres dbname=to_do_tasks sslmode=disable"
     db, err := sql.Open("postgres", connStr)
     if err != nil {
